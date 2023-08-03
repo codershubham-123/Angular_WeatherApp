@@ -1,0 +1,29 @@
+.container{
+    border: 2px solid red;
+    background-color: orange;
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+}
+
+
+.heading {
+    margin-left: 150px;
+  }
+
+label{
+    text-align: center;
+    color: black;
+    left: 40%;
+
+}
+
+#gst{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+}
