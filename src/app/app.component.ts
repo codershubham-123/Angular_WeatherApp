@@ -64,9 +64,12 @@ export class AppComponent {
     this.http.get(`https://api.openweathermap.org/data/2.5/weather?q=${data.city}&appid=63cfe938a09ada9e27d7f5e19a230ba8`).subscribe(res => {
       console.log(res);
       this.array = [res]
+    let x  = <HTMLElement> document.querySelector("#myDiv");
+       x.innerHTML = " "
     },
-    err => {
-      alert("Something is wrong in input.")
+    ()=> {
+       let x  = <HTMLElement> document.querySelector("#myDiv");
+       x.innerHTML = "Please select a country"
     })
   }
 
